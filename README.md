@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+## Movie Search App
+🎥🔍🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built with React that allows users to search for movies using the Rapid API. Users can easily find information about movies, add them to their favorites ❤️, and toggle between light ☀️ and dark 🌙 mode for a personalized viewing experience.
 
-## Available Scripts
+### Features
+* ✨ Movie Search: Users can enter keywords or movie titles in the search bar to retrieve a list of relevant movies. The app uses the Rapid API to fetch movie data, including titles, posters, release dates, and ratings.
 
-In the project directory, you can run:
+* ❤️ Favorites: Users can mark movies as favorites by clicking on a heart icon associated with each movie. The selected movies are then added to the favorites list, which can be accessed and managed separately.
 
-### `npm start`
+* ➕🗑️ Add and Remove from Favorites: Users can add movies to their favorites list by clicking on the heart icon. They can also remove movies from the favorites list by clicking on the heart icon again.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🌞🌑 Light and Dark Mode: The app provides a toggle switch that allows users to switch between light and dark mode. This feature enhances the user experience by providing different visual themes to suit personal preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+Contributions to the Movie Search App are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the project's GitHub repository. Feel free to fork the repository and submit pull requests as well.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Movie Search App was created by Sawda Jimale. Special thanks to OMDB API for providing the movie-related API that power this application.
